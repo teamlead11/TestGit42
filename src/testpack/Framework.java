@@ -1,5 +1,7 @@
 package testpack;
 
+import java.util.Scanner;
+
 public class Framework {
 
 	public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Framework {
 		System.out.println("pavithra add a method");
 		stringPanlindromeByNisha();
 		stringPalindromeBySathish("Sathish");
+		stringPalindromeBySelvamani();
 	}
 
 	public static void StringPalindromeByGanesh() {
@@ -42,4 +45,21 @@ public class Framework {
             System.out.println(a + " - This string is not palindrome.");
         }
 	}
+
+	public static void stringPalindromeBySelvamani() {
+		String original, reverse ="";
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the value to check Palindrome");
+		original = input.nextLine();
+		for (int i=original.length()-1;i>=0;i--)
+		{
+	    reverse = reverse + original.charAt(i);
+		}
+		if (original.equalsIgnoreCase(reverse))
+		{
+			System.out.println(original + " is a palindrome" );
+		}
+		else {
+			System.out.println(original + " is not a palindrome");
+		}
 }
