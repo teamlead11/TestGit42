@@ -6,6 +6,7 @@ public class Framework {
 		// TODO Auto-generated method stub
 		System.out.println("this is my framework");
 		System.out.println("pavithra add a method");
+		stringPanlindromeByNisha();
 	}
 
 	public static void StringPalindromeByGanesh() {
