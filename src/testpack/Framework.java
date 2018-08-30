@@ -62,5 +62,19 @@ public class Framework {
 		else {
 			System.out.println(original + " is not a palindrome");
 		}
+		public static void stringPalindromeByVasanth()
+		{
+			String name="Vasanth";
+			String rev="";
+			int a=name.length();
+			for(int i=a-1;i>=0;i--)
+			{
+				rev=rev+ name.charAt(i);
+			}
+			if(rev.equalsIgnoreCase(name))
+			System.out.println("It is Palindrome");
+			else
+				System.out.println("It is not palindrome");
+			}
 }
 }
