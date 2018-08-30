@@ -15,5 +15,13 @@ public class Framework {
 
 	}
 	
-
+public static void stringPanlindromeByNisha() {
+	String s="nisha";
+	String reverse="";
+	for(int i=0;i<s.length();i++) {
+		reverse=reverse+s.charAt(i);
+		
+	}
+	System.out.println(reverse);
+}
 }
