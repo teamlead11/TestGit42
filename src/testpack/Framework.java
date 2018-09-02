@@ -9,6 +9,7 @@ public class Framework {
 		stringPanlindromeByNisha();
 		stringPalindromeBySathish("Sathish");
 		stringPalindromeBySelvamani();
+		  System.out.println("line added by senthil");
 	}
   public static void StringPalindromeByGanesh() {
 }
