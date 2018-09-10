@@ -63,4 +63,8 @@ public class Framework {
 			}
 		System.out.println(rev);
 	}
+   
+   public void empname() {
+System.out.println("jananajanananjanananjanan");
+}
 }
